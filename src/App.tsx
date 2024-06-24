@@ -2,6 +2,7 @@
 // import { useState } from 'react';
 import './App.css'
 import TodoForm from './components/Todo/TodoForm'
+import TodoList from './components/Todo/TodoList'
 import TodoProvider from './context/TodoProvider'
 // import UserInfoWithUseReducer from './components/UserInfoWithUseReducer'
 // import CounterWithClassFunComponent from './components/CounterWithClassFunComponent'
@@ -13,6 +14,7 @@ function App() {
     <TodoProvider>
       <div>
           <TodoForm />
+          <TodoList />
       </div>
     </TodoProvider>
 
